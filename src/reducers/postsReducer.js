@@ -1,5 +1,12 @@
 export const initialPosts = [
 	{
+		id: 4,
+		title: "Deduction through the Ages: A History of Truth",
+		subtitle: "History of deductive reasoning, from antiquity to now",
+		content: "This book gives an account of the development of human deductive logic. Starting with if-then implication practiced in ancient times, then through propositional logic prevalent in medieval ages to modern day dicrete schemata and truth tables.",
+		likes: 2,
+	},
+	{
 		id: 3,
 		title: "What's a Reducer Function ?",
 		subtitle: "A function that defines the actions possible on a reducer state",
