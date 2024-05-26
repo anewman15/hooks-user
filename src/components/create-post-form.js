@@ -21,7 +21,7 @@ export function CreatePostForm( { posts, dispatch }) {
 	return (
 		<div className="mx-auto">
 			<h2 className="title">Create Post</h2>
-			<form className="p-6 bg-white" onSubmit={handleSubmit}>
+			<form className="shadow-md p-6 bg-white rounded-lg" onSubmit={handleSubmit}>
 				<div className="form-control">
 					<label 
 						htmlFor="title"
